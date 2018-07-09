@@ -1,8 +1,18 @@
 // add solution here
 function theBeatlesPlay (arrayMusicians, arrayInstruments){
-  var array=[]
-  let index=arrayMusicians.length
-  for (arrayMusicians[0], index, --arrayMusicians.length){
-    array=[...array, `${arrayMusicians[0]} plays ${arrayInstruments[0]]}`]}
-    return array
+  var array = [];
+  for (var index=0; index<arrayMusicians.length; index++){
+    array=[...array, `${arrayMusicians[index]} plays ${arrayInstruments[index]}`]
   }
+   return array;
+  }
+  
+function johnLennonFacts(arrayFacts){
+    let indexLennon=arrayFacts.length;
+      while (indexLennon>-1) {
+        arrayFacts[indexLennon()] = [arrayFacts[indexLennon()]+"!!!"];
+        arrayFacts =
+        --indexLennon
+      }
+    return arrayFacts;
+    }
