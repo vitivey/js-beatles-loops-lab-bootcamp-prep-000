@@ -12,6 +12,6 @@ function johnLennonFacts(arrayFacts){
       while (indexLennon>-1) {
         arrayFacts[indexLennon] =arrayFacts[indexLennon]+"!!!";
         --indexLennon
-      return arrayFacts;
+      
       }
     }
