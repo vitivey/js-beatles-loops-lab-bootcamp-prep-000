@@ -10,7 +10,7 @@ function theBeatlesPlay (arrayMusicians, arrayInstruments){
 function johnLennonFacts(arrayFacts){
     let indexLennon=arrayFacts.length;
       while (indexLennon>-1) {
-        arrayFacts[indexLennon()] = [arrayFacts[indexLennon()]+"!!!"];
+        arrayFacts[indexLennon] = [arrayFacts[indexLennon]+"!!!"];
         --indexLennon
       }
     return arrayFacts;
